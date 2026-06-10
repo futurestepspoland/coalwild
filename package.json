@@ -1,0 +1,31 @@
+{
+  "name": "coalwild-weather-dashboard",
+  "version": "1.0.0",
+  "description": "A beautiful, responsive weather dashboard that fetches real-time data from OpenWeatherMap API",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "npx http-server",
+    "build": "echo 'No build step needed for vanilla JS'"
+  },
+  "keywords": [
+    "weather",
+    "dashboard",
+    "weather-app",
+    "openweathermap",
+    "responsive-design",
+    "vanilla-javascript"
+  ],
+  "author": "futurestepspoland",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/futurestepspoland/coalwild.git"
+  },
+  "homepage": "https://github.com/futurestepspoland/coalwild#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
